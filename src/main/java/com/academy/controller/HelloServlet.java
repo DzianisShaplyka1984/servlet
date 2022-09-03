@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 public class HelloServlet extends HttpServlet {
 
-  protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+  protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+  {
     PrintWriter writer = resp.getWriter();
 
     writer.println("<html>");
@@ -18,10 +20,9 @@ public class HelloServlet extends HttpServlet {
 
 
     writer.println("Hello world!");
-    writer.println("Hi world!");
+      writer.println("Hi!");
 
     writer.println("</body>");
-    writer.println("</html>");
+      writer.println("</html>");
   }
-
 }
