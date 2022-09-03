@@ -23,6 +23,6 @@ public class HelloServlet extends HttpServlet {
       writer.println("Hi!");
 
     writer.println("</body>");
-      writer.println("</html>");
+    writer.println("</html>");
   }
 }
