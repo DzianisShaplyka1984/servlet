@@ -36,8 +36,6 @@ public class LoginServlet extends HttpServlet {
   }
 
   protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    String login = req.getParameter("login");
-    String password = req.getParameter("password");
     String body = req.getReader().lines().collect(Collectors.joining());
 
     System.out.println(body);
