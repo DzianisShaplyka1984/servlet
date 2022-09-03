@@ -2,7 +2,7 @@ package com.academy.model.entity;
 
 public class Author {
   private String name;
-
+  private String address;
   public String getName() {
     return name;
   }
@@ -11,5 +11,13 @@ public class Author {
     this.name = name;
 
 
+  }
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
   }
 }
