@@ -27,7 +27,6 @@ public class LoginServlet extends HttpServlet {
 
       HttpSession session = req.getSession();
       session.setAttribute("user", login);
-
     } else {
       writer.println("Access denied");
     }
