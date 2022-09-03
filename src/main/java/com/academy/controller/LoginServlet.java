@@ -28,8 +28,6 @@ public class LoginServlet extends HttpServlet {
       HttpSession session = req.getSession();
       session.setAttribute("user", login);
 
-      Cookie cookie = new Cookie("testCookie", "someTestData");
-      resp.addCookie(cookie);
     } else {
       writer.println("Access denied");
     }
