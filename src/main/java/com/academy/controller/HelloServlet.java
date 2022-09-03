@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
 
 
     writer.println("Hello world!");
-    writer.println("Hello world123!");
+    writer.println("Hello!");
 
     writer.println("</body>");
     writer.println("</html>");
